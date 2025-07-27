@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/responsive/responsive_breakpoints.dart';
+import 'package:recipe/responsive/widget/mobile_page.dart';
 
 class IntelligentWidget extends StatelessWidget {
   const IntelligentWidget({super.key});
@@ -11,11 +12,11 @@ class IntelligentWidget extends StatelessWidget {
 
     double? calculateWidth(double width) {
       if (ResponsiveBreakpoints.isDesktop(width)) {
-        return screenWidth * 0.6;
+        return screenWidth;
       } else if (ResponsiveBreakpoints.isTablet(width)) {
-        return screenWidth * 0.8;
+        return screenWidth;
       } else {
-        return screenWidth * 0.9;
+        return screenWidth;
       }
     }
 
@@ -43,11 +44,13 @@ class IntelligentWidget extends StatelessWidget {
       }
     }
 
-    return Container(
-      width: calculateWidth(screenWidth),
-      height: calculateHeight(screenWidth),
-      decoration: BoxDecoration(color: chooseColor(screenWidth)),
-      child: _buildContent(screenWidth),
+    return Scaffold(
+      body: Container(
+        width: calculateWidth(screenWidth),
+        height: calculateHeight(screenWidth),
+        color: chooseColor(screenWidth),
+        child: _buildContent(screenWidth),
+      ),
     );
   }
 
@@ -57,7 +60,7 @@ class IntelligentWidget extends StatelessWidget {
     } else if (ResponsiveBreakpoints.isTablet(width)) {
       return Container();
     } else {
-      return Container();
+      return MobilePage();
     }
   }
 }
