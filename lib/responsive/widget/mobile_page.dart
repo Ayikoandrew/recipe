@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/model/recipe.dart';
+import 'package:recipe/responsive/widget/detailed_recipe_page.dart';
 
 class MobilePage extends StatefulWidget {
   const MobilePage({super.key});
@@ -85,6 +86,15 @@ class _MobilePageState extends State<MobilePage> {
                     ),
                     child: Text('${recipe.cookTime.toString()} Mins'),
                   ),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            DetailedRecipePage(recipe: recipe),
+                      ),
+                    );
+                  },
                 ),
               ),
             );
