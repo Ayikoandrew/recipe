@@ -44,13 +44,11 @@ class IntelligentWidget extends StatelessWidget {
       }
     }
 
-    return Scaffold(
-      body: Container(
-        width: calculateWidth(screenWidth),
-        height: calculateHeight(screenWidth),
-        color: chooseColor(screenWidth),
-        child: _buildContent(screenWidth),
-      ),
+    return Container(
+      width: calculateWidth(screenWidth),
+      height: calculateHeight(screenWidth),
+      color: chooseColor(screenWidth),
+      child: _buildContent(screenWidth),
     );
   }
 
