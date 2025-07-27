@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/model/recipe.dart';
+import 'package:recipe/responsive/widget/mobile_page.dart';
 
 class ResponsiveGrid extends StatelessWidget {
   const ResponsiveGrid({super.key, required this.recipes});
@@ -51,24 +52,9 @@ class ResponsiveGridCard extends StatelessWidget {
   }
 
   Widget _buildPhoneLayout(double width) {
-    return Card(
-      elevation: 0,
-      child: SingleChildScrollView(
-        reverse: true,
-        child: Row(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.horizontal(
-                  left: Radius.circular(12),
-                ),
-                image: DecorationImage(image: NetworkImage(recipe.imageUrl)),
-              ),
-            ),
-          ],
-        ),
-      ),
+    return Scaffold(
+      appBar: AppBar(title: Text('Recipes')),
+      body: MobilePage(),
     );
   }
 }
