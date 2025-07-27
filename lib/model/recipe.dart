@@ -41,7 +41,8 @@ final List<Recipe> recipes = [
       'Fry pancetta.',
       'Combine all with pepper.',
     ],
-    imageUrl: 'https://example.com/spaghetti.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/943785646/photo/spaghetti-carbonara-with-garlic-bread.webp?a=1&b=1&s=612x612&w=0&k=20&c=A48lw7nAML-umMfqKbMfVe3irvcAaOkBPUpKVOFhP48=',
     cookTime: 20,
     ratings: 4,
     tags: ['Italian', 'Pasta', 'Quick'],
@@ -62,7 +63,8 @@ final List<Recipe> recipes = [
       'Add chicken and spices',
       'Simmer with tomatoes and coconut milk',
     ],
-    imageUrl: 'https://example.com/chicken_curry.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1514250309/photo/indian-curry-chicken-served-in-white-bowl.webp?a=1&b=1&s=612x612&w=0&k=20&c=yL2pi8dH3c806HZtJp72iMFJZnM83qdHR8c_kbuYgFc=',
     cookTime: 40,
     ratings: 5,
     tags: ['Indian', 'Spicy', 'Main Course'],
@@ -79,7 +81,8 @@ final List<Recipe> recipes = [
       'Parmesan cheese',
     ],
     instructions: ['Toss lettuce with dressing', 'Add croutons and cheese'],
-    imageUrl: 'https://example.com/caesar_salad.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/186841877/photo/caesar-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=VnF-x70YaLYgE6NHiJynM1aNeStWJfX9KPAhtul1PrI=',
     cookTime: 10,
     ratings: 3,
     tags: ['Salad', 'Quick', 'Vegetarian'],
@@ -97,7 +100,8 @@ final List<Recipe> recipes = [
       'Salsa',
     ],
     instructions: ['Cook beef', 'Fill taco shells with beef and toppings'],
-    imageUrl: 'https://example.com/beef_tacos.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1333647378/photo/homemade-american-soft-shell-beef-tacos.webp?a=1&b=1&s=612x612&w=0&k=20&c=VlHsqxCFAxTsBujWRbEk30gRpEr8q5CGQVxar3OUb78=',
     cookTime: 30,
     ratings: 4,
     tags: ['Mexican', 'Tacos', 'Quick'],
@@ -118,7 +122,8 @@ final List<Recipe> recipes = [
       'Stir fry vegetables with garlic and ginger',
       'Add soy sauce and sesame oil',
     ],
-    imageUrl: 'https://example.com/vegetable_stir_fry.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/600073988/photo/vegetable-stir-fry.webp?a=1&b=1&s=612x612&w=0&k=20&c=xenuWRkahvIbJIzGHUwh-TAl4Rx8Q5-bAcBO08SxkoQ=',
     cookTime: 15,
     ratings: 4,
     tags: ['Vegetarian', 'Quick', 'Stir Fry'],
@@ -142,7 +147,8 @@ final List<Recipe> recipes = [
       'Bake',
       'Frost with chocolate frosting',
     ],
-    imageUrl: 'https://example.com/chocolate_cake.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2165404401/photo/chocolate-cake-with-chocolate-icing-on-a-black-plate-next-to-a-fork.webp?a=1&b=1&s=612x612&w=0&k=20&c=sOdjnbl1xh_OmqEGPmTBOpUGl3JTsSiwO5svMk_Fm18=',
     cookTime: 60,
     ratings: 5,
     tags: ['Dessert', 'Cake', 'Chocolate'],
@@ -165,7 +171,8 @@ final List<Recipe> recipes = [
       'Mix with olives and feta',
       'Drizzle with olive oil and lemon juice',
     ],
-    imageUrl: 'https://example.com/greek_salad.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1670305570/photo/greek-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y5yLxB_I2VjJm3ysdfQNo9BiTX3zFcOyG-tPSPivkPs=',
     cookTime: 10,
     ratings: 4,
     tags: ['Salad', 'Mediterranean', 'Vegetarian'],
@@ -181,7 +188,8 @@ final List<Recipe> recipes = [
       'Add rice and soy sauce',
       'Mix well',
     ],
-    imageUrl: 'https://example.com/shrimp_fried_rice.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/186826982/photo/plate-of-shrimp-fried-rice-on-a-placemat-and-wood-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=TUt0HdGbmLGxrRZ7toW4nqlWvKiwLOuZki5GhARV864=',
     cookTime: 20,
     ratings: 4,
     tags: ['Seafood', 'Rice', 'Quick'],
@@ -204,7 +212,8 @@ final List<Recipe> recipes = [
       'Cook on a griddle',
       'Serve with syrup and berries',
     ],
-    imageUrl: 'https://example.com/pancakes.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2169825145/photo/pancakes.webp?a=1&b=1&s=612x612&w=0&k=20&c=rAwKCfGy0zCvk5rKWgPAf6uXEKDYs1NQASs6BayY-RY=',
     cookTime: 15,
     ratings: 5,
     tags: ['Breakfast', 'Quick', 'Sweet'],
@@ -227,7 +236,8 @@ final List<Recipe> recipes = [
       'Add lentils and broth',
       'Simmer until lentils are tender',
     ],
-    imageUrl: 'https://example.com/lentil_soup.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/856009070/photo/lentil-soup.webp?a=1&b=1&s=612x612&w=0&k=20&c=4cA1qC1ZmWEw5iMnFZvbpgoR1wgdbHGlZKgH0eYy3SI=',
     cookTime: 40,
     ratings: 4,
     tags: ['Soup', 'Vegetarian', 'Healthy'],
@@ -242,7 +252,8 @@ final List<Recipe> recipes = [
       'Cook slowly in the oven or grill',
       'Brush with BBQ sauce before serving',
     ],
-    imageUrl: 'https://example.com/bbq_ribs.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/155431877/photo/barbecue-ribs.webp?a=1&b=1&s=612x612&w=0&k=20&c=5pTU-OVBaJ-HqHUEEtNyEBKwjw8pS0uXzorP5HQoRyc=',
     cookTime: 180,
     ratings: 5,
     tags: ['Meat', 'BBQ', 'Grill'],
@@ -264,7 +275,8 @@ final List<Recipe> recipes = [
       'Layer with basil',
       'Drizzle with balsamic glaze and olive oil',
     ],
-    imageUrl: 'https://example.com/caprese_salad.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1345888788/photo/caprese-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=alTtTjaIdc0tX2cwO8wJtZNB5R9F_PixCflwKFUyidM=',
     cookTime: 15,
     ratings: 4,
     tags: ['Salad', 'Italian', 'Vegetarian'],
@@ -279,7 +291,8 @@ final List<Recipe> recipes = [
       'Prepare lime crema',
       'Assemble tacos with fish, cabbage, and crema',
     ],
-    imageUrl: 'https://example.com/fish_tacos.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/171147729/photo/fish-tacos.webp?a=1&b=1&s=612x612&w=0&k=20&c=gjXZ1b4_qk2gci6e540nzdDa1VR1alKuLhuCqFTMpto=',
     cookTime: 25,
     ratings: 4,
     tags: ['Mexican', 'Seafood', 'Tacos'],
@@ -296,7 +309,8 @@ final List<Recipe> recipes = [
       'Fill crust with apple mixture',
       'Bake until golden brown',
     ],
-    imageUrl: 'https://example.com/apple_pie.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2177484744/photo/preparing-apple-pie-in-domestic-kitchen.webp?a=1&b=1&s=612x612&w=0&k=20&c=Lub9iybcE5HMxC52hjho-Jo7PVgOav8dJ-lNK92vu4U=',
     cookTime: 60,
     ratings: 5,
     tags: ['Dessert', 'Pie', 'Sweet'],
@@ -319,7 +333,8 @@ final List<Recipe> recipes = [
       'Gradually add broth while stirring',
       'Finish with Parmesan cheese',
     ],
-    imageUrl: 'https://example.com/mushroom_risotto.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/937898858/photo/risotto-with-chanterelle-mushrooms-and-parmesan.webp?a=1&b=1&s=612x612&w=0&k=20&c=pMznkpEps0Bo1P6cghSuT6mMQsJAxzFSTNgBkw6xhgo=',
     cookTime: 45,
     ratings: 5,
     tags: ['Italian', 'Risotto', 'Vegetarian'],
@@ -343,7 +358,8 @@ final List<Recipe> recipes = [
       'Stuff bell peppers with mixture',
       'Bake until peppers are tender',
     ],
-    imageUrl: 'https://example.com/stuffed_bell_peppers.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1702722381/photo/asian-style-beef-and-rice-skillet.webp?a=1&b=1&s=612x612&w=0&k=20&c=hY3-oH1fSB3VdoVPxxmdm23eXdQygV9-CQ5cDmR-NnQ=',
     cookTime: 50,
     ratings: 4,
     tags: ['Main Course', 'Vegetables', 'Baked'],
@@ -366,7 +382,8 @@ final List<Recipe> recipes = [
       'Blend basil, garlic, pine nuts, and olive oil to make pesto',
       'Toss pasta with pesto and top with Parmesan cheese',
     ],
-    imageUrl: 'https://example.com/pesto_pasta.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/613136676/photo/linguine-with-grilled-chicken-and-basil-pesto-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=isvuvPv8engKgVaefHGg_W9wZ7lD7VEN1tZHpgwGrrE=',
     cookTime: 20,
     ratings: 5,
     tags: ['Italian', 'Pasta', 'Vegetarian'],
@@ -389,7 +406,8 @@ final List<Recipe> recipes = [
       'Stir in tomatoes and beans',
       'Simmer until thickened',
     ],
-    imageUrl: 'https://example.com/chili_con_carne.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2050484971/photo/chili-con-carne.webp?a=1&b=1&s=612x612&w=0&k=20&c=avWKphnosKMZXfLZ6aD9s4OiLsM2cnDPPSa8KhumOU8=',
     cookTime: 60,
     ratings: 4,
     tags: ['Mexican', 'Spicy', 'Main Course'],
@@ -406,7 +424,8 @@ final List<Recipe> recipes = [
       'Combine with bacon and cheese',
       'Pour into pie crust and bake',
     ],
-    imageUrl: 'https://example.com/quiche_lorraine.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2060294015/photo/traditional-french-pie-quiche-lorraine-on-kitchen-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=8Hel9aV37t0wcNMyxegQivLSg51feRdZYNRGptOeqyc=',
     cookTime: 45,
     ratings: 5,
     tags: ['French', 'Quiche', 'Savory'],
@@ -430,7 +449,8 @@ final List<Recipe> recipes = [
       'Combine with flour, baking soda, and cinnamon',
       'Pour into a loaf pan and bake',
     ],
-    imageUrl: 'https://example.com/banana_bread.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/503119248/photo/banana-loaf.webp?a=1&b=1&s=612x612&w=0&k=20&c=fc6uWgpt0si-FqogK94QzwUfAyDxYYzL15f130Oi1QM=',
     cookTime: 60,
     ratings: 5,
     tags: ['Dessert', 'Baking', 'Sweet'],
@@ -455,7 +475,8 @@ final List<Recipe> recipes = [
       'Form into balls and fry until golden',
       'Serve in pita bread with lettuce, tomatoes, and tahini sauce',
     ],
-    imageUrl: 'https://example.com/falafel_wrap.jpg',
+    imageUrl:
+        'https://images.unsplash.com/photo-1649138783888-0ec9c3ec2f21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmFsYWZlbCUyMFdyYXB8ZW58MHx8MHx8fDA%3D',
     cookTime: 30,
     ratings: 4,
     tags: ['Middle Eastern', 'Vegetarian', 'Wrap'],
@@ -479,7 +500,8 @@ final List<Recipe> recipes = [
       'Layer in a baking dish with mozzarella and Parmesan cheese',
       'Bake until bubbly and golden',
     ],
-    imageUrl: 'https://example.com/baked_ziti.jpg',
+    imageUrl:
+        'https://images.unsplash.com/photo-1743324653833-98321dc52f58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8QmFrZWQlMjBaaXRpfGVufDB8fDB8fHww',
     cookTime: 45,
     ratings: 5,
     tags: ['Italian', 'Pasta', 'Baked'],
@@ -501,7 +523,8 @@ final List<Recipe> recipes = [
       'Sauté with fajita seasoning until cooked',
       'Serve with warm tortillas',
     ],
-    imageUrl: 'https://example.com/chicken_fajitas.jpg',
+    imageUrl:
+        'https://plus.unsplash.com/premium_photo-1679986537856-f13d1b30204c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpY2tlbiUyMEZhaml0YXN8ZW58MHx8MHx8fDA%3D',
     cookTime: 30,
     ratings: 4,
     tags: ['Mexican', 'Chicken', 'Quick'],
@@ -524,7 +547,8 @@ final List<Recipe> recipes = [
       'Add mixed vegetables and curry powder',
       'Pour in coconut milk and simmer',
     ],
-    imageUrl: 'https://example.com/vegetable_curry.jpg',
+    imageUrl:
+        'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VmVnZXRhYmxlJTIwQ3Vycnl8ZW58MHx8MHx8fDA%3D',
     cookTime: 40,
     ratings: 4,
     tags: ['Indian', 'Vegetarian', 'Curry'],
@@ -549,7 +573,8 @@ final List<Recipe> recipes = [
       'Mix in flour and chocolate chips',
       'Scoop onto baking sheet and bake',
     ],
-    imageUrl: 'https://example.com/chocolate_chip_cookies.jpg',
+    imageUrl:
+        'https://plus.unsplash.com/premium_photo-1673967816735-fcbeec26553a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hvY29sYXRlJTIwQ2hpcCUyMENvb2tpZXN8ZW58MHx8MHx8fDA%3D',
     cookTime: 20,
     ratings: 5,
     tags: ['Dessert', 'Baking', 'Cookies'],
@@ -570,7 +595,8 @@ final List<Recipe> recipes = [
       'Layer Greek yogurt with granola and fresh fruit',
       'Drizzle with honey if desired',
     ],
-    imageUrl: 'https://example.com/greek_yogurt_parfait.jpg',
+    imageUrl:
+        'https://images.unsplash.com/photo-1571230389215-b34a89739ef1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3JlZWslMjBZb2d1cnQlMjBQYXJmYWl0fGVufDB8fDB8fHww',
     cookTime: 10,
     ratings: 5,
     tags: ['Breakfast', 'Healthy', 'Quick'],
@@ -594,7 +620,8 @@ final List<Recipe> recipes = [
       'Roast mixed vegetables with olive oil, salt, and pepper',
       'Combine quinoa and roasted vegetables, drizzle with lemon juice',
     ],
-    imageUrl: 'https://example.com/roasted_vegetable_quinoa_bowl.jpg',
+    imageUrl:
+        'https://images.unsplash.com/photo-1682944625832-fd710e15b190?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJvYXN0ZWQlMjBWZWdldGFibGUlMjBRdWlub2ElMjBCb3dsfGVufDB8fDB8fHww',
     cookTime: 30,
     ratings: 4,
     tags: ['Healthy', 'Vegetarian', 'Bowl'],
@@ -618,7 +645,8 @@ final List<Recipe> recipes = [
       'Toss with cherry tomatoes and arugula',
       'Top with Parmesan cheese',
     ],
-    imageUrl: 'https://example.com/pesto_chicken_salad.jpg',
+    imageUrl:
+        'https://images.unsplash.com/photo-1752028935881-0674807b046c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFBlc3RvJTIwQ2hpY2tlbiUyMFNhbGFkfGVufDB8fDB8fHww',
     cookTime: 15,
     ratings: 4,
     tags: ['Salad', 'Chicken', 'Quick'],
@@ -643,7 +671,8 @@ final List<Recipe> recipes = [
       'Stuff chicken breasts with spinach and feta mixture',
       'Season with salt and pepper, then bake until cooked through',
     ],
-    imageUrl: 'https://example.com/spinach_feta_stuffed_chicken.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/118313946/photo/chicken-breasts-stuffed-with-spinach-and-feta.webp?a=1&b=1&s=612x612&w=0&k=20&c=LGIS4gJOxvTFtanLCtyn302uDgOIlK3SPhWXwWK41GY=',
     cookTime: 40,
     ratings: 5,
     tags: ['Chicken', 'Stuffed', 'Healthy'],
@@ -667,7 +696,8 @@ final List<Recipe> recipes = [
       'Chop cilantro',
       'Mix all ingredients with lime juice and salt',
     ],
-    imageUrl: 'https://example.com/mango_salsa.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2148548735/photo/freshly-made-mango-salsa-in-a-black-ceramic-bowl-and-nacho-chips.webp?a=1&b=1&s=612x612&w=0&k=20&c=_ER0hNoPIIvnGT8Jij4BrygIbjHSshma4xU2C6LAh3k=',
     cookTime: 10,
     ratings: 4,
     tags: ['Salsa', 'Fresh', 'Condiment'],
@@ -692,7 +722,8 @@ final List<Recipe> recipes = [
       'Top with sliced cherry tomatoes, salt, and pepper',
       'Drizzle with olive oil if desired',
     ],
-    imageUrl: 'https://example.com/avocado_toast.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1329818840/photo/avocado-toast-with-a-fried-egg-and-toasted-sesame-seeds.webp?a=1&b=1&s=612x612&w=0&k=20&c=tn_TgDmu4lrUWerPoQ_q11aNeBt_LYQY0maPFZOwOvo=',
     cookTime: 10,
     ratings: 5,
     tags: ['Breakfast', 'Healthy', 'Quick'],
@@ -719,7 +750,8 @@ final List<Recipe> recipes = [
       'Stir in flour, then add beef broth and simmer',
       'Finish with sour cream and serve over noodles',
     ],
-    imageUrl: 'https://example.com/beef_stroganoff.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1328568894/photo/pork-tenderloin-medallions-in-a-creamy-mushroom-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=U3vdAD05wUhBMJrrSoJE0SZbpEa87rqJomUhaMZQGfQ=',
     cookTime: 45,
     ratings: 5,
     tags: ['Main Course', 'Comfort Food', 'Beef'],
@@ -742,7 +774,8 @@ final List<Recipe> recipes = [
       'Thread cherry tomatoes, mozzarella balls, and basil onto skewers',
       'Drizzle with balsamic glaze and sprinkle with salt and pepper',
     ],
-    imageUrl: 'https://example.com/caprese_skewers.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1719694159/photo/caprese-salad-kabob.webp?a=1&b=1&s=612x612&w=0&k=20&c=a3xP3Hf_VipbZqf7fJGAIn5lbhNbBTOSMHs6VqdSNPw=',
     cookTime: 10,
     ratings: 4,
     tags: ['Appetizer', 'Italian', 'Fresh'],
@@ -768,7 +801,8 @@ final List<Recipe> recipes = [
       'Fold melted chocolate into egg mixture, then fold in whipped cream',
       'Chill before serving',
     ],
-    imageUrl: 'https://example.com/chocolate_mousse.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/180811737/photo/chocolate-mousse.webp?a=1&b=1&s=612x612&w=0&k=20&c=fj5KJR5Pj407xMbTCNFoS0XexS8DNDhNq8-r4HVu1SE=',
     cookTime: 30,
     ratings: 5,
     tags: ['Dessert', 'Chocolate', 'Mousse'],
@@ -796,40 +830,13 @@ final List<Recipe> recipes = [
       'Place chicken in a roasting pan with chopped vegetables',
       'Roast until chicken is cooked through and vegetables are tender',
     ],
-    imageUrl: 'https://example.com/roasted_chicken_vegetables.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/529979610/photo/grilled-chicken-thighs-with-a-side-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=_DaT6f6lwdM1kPEy59CmKSo27_qZkYfAVbtM-fH0nCI=',
     cookTime: 90,
     ratings: 5,
     tags: ['Main Course', 'Roasted', 'Comfort Food'],
   ),
 
-  Recipe(
-    id: '36',
-    name: 'Vegetable Stir Fry',
-    description:
-        'A quick and colorful stir fry with a mix of fresh vegetables and soy sauce.',
-    ingredients: [
-      'Bell peppers',
-      'Broccoli',
-      'Carrots',
-      'Snap peas',
-      'Soy sauce',
-      'Garlic',
-      'Ginger',
-      'Olive oil',
-      'Sesame seeds (for garnish)',
-    ],
-    instructions: [
-      'Heat olive oil in a large pan or wok',
-      'Add garlic and ginger, sauté until fragrant',
-      'Add vegetables and stir fry until tender-crisp',
-      'Pour in soy sauce and toss to coat',
-      'Serve hot, garnished with sesame seeds',
-    ],
-    imageUrl: 'https://example.com/vegetable_stir_fry.jpg',
-    cookTime: 20,
-    ratings: 4,
-    tags: ['Vegetarian', 'Quick', 'Healthy'],
-  ),
   Recipe(
     id: '37',
     name: 'Lemon Garlic Shrimp Pasta',
@@ -851,7 +858,8 @@ final List<Recipe> recipes = [
       'Stir in lemon juice, salt, and pepper',
       'Toss with cooked pasta and garnish with parsley',
     ],
-    imageUrl: 'https://example.com/lemon_garlic_shrimp_pasta.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/155353180/photo/shrimp-scampi.webp?a=1&b=1&s=612x612&w=0&k=20&c=_eFpeSqKuj2O8oUhqPd6tjFQr2EP-3TsglzaNjpwcDk=',
     cookTime: 25,
     ratings: 5,
     tags: ['Seafood', 'Pasta', 'Quick'],
@@ -878,7 +886,8 @@ final List<Recipe> recipes = [
       'Simmer until pumpkin is tender, then blend until smooth',
       'Stir in cream and spices, season with salt and pepper',
     ],
-    imageUrl: 'https://example.com/pumpkin_soup.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/859053324/photo/freshness-pumpkin-soup.webp?a=1&b=1&s=612x612&w=0&k=20&c=GTJWU5j7hoD2KiHwGuFzrO15c_-JoODB5Eh_Aa1JQcI=',
     cookTime: 40,
     ratings: 4,
     tags: ['Soup', 'Vegetarian', 'Comfort Food'],
@@ -904,7 +913,8 @@ final List<Recipe> recipes = [
       'Drizzle with olive oil, garlic, salt, and pepper',
       'Top salmon with lemon slices and bake until cooked through',
     ],
-    imageUrl: 'https://example.com/baked_salmon_asparagus.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/171298089/photo/broiled-salmon.webp?a=1&b=1&s=612x612&w=0&k=20&c=5dHW0L7dn6mB3mUR6XjngghOnZ5UTQN445Y0KqLfn_I=',
     cookTime: 25,
     ratings: 5,
     tags: ['Seafood', 'Healthy', 'Quick'],
@@ -934,7 +944,8 @@ final List<Recipe> recipes = [
       'Fold in chocolate chips',
       'Drop spoonfuls onto a baking sheet and bake for 10-12 minutes',
     ],
-    imageUrl: 'https://example.com/chocolate_chip_cookies.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1709721394/photo/delicious-chocolate-chip-cookies.webp?a=1&b=1&s=612x612&w=0&k=20&c=WrWtJgTdxpks4TNnJp4PQ7JWRFFM7k00V3m6-9sNdJ8=',
     cookTime: 15,
     ratings: 5,
     tags: ['Dessert', 'Baking', 'Sweet'],
@@ -962,63 +973,11 @@ final List<Recipe> recipes = [
       'Push vegetables to the side, scramble eggs in the pan',
       'Mix everything together, add soy sauce and green onions before serving',
     ],
-    imageUrl: 'https://example.com/cauliflower_fried_rice.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1125984488/photo/fried-cauliflower-rice-with-avocado-and-gochujang-sauce-on-the-side.webp?a=1&b=1&s=612x612&w=0&k=20&c=vf67mKAgRjAeKrZI9gFBrLSsDVPhLRLFCORNl3f8m-s=',
     cookTime: 20,
     ratings: 4,
     tags: ['Low Carb', 'Vegetarian', 'Quick'],
-  ),
-
-  Recipe(
-    id: '42',
-    name: 'Beef Tacos',
-    description:
-        'Flavorful beef tacos with fresh toppings, perfect for a quick meal.',
-    ingredients: [
-      'Ground beef',
-      'Taco seasoning',
-      'Taco shells',
-      'Lettuce',
-      'Tomato',
-      'Cheese',
-      'Sour cream',
-      'Avocado',
-    ],
-    instructions: [
-      'Cook ground beef in a skillet, add taco seasoning',
-      'Warm taco shells according to package instructions',
-      'Assemble tacos with beef and desired toppings',
-    ],
-    imageUrl: 'https://example.com/beef_tacos.jpg',
-    cookTime: 15,
-    ratings: 4,
-    tags: ['Mexican', 'Quick', 'Beef'],
-  ),
-
-  Recipe(
-    id: '43',
-    name: 'Greek Salad',
-    description:
-        'A refreshing Greek salad with cucumbers, tomatoes, olives, and feta cheese.',
-    ingredients: [
-      'Cucumbers',
-      'Tomatoes',
-      'Red onion',
-      'Kalamata olives',
-      'Feta cheese',
-      'Olive oil',
-      'Lemon juice',
-      'Oregano',
-      'Salt',
-    ],
-    instructions: [
-      'Chop cucumbers, tomatoes, and red onion',
-      'Combine with olives and feta cheese in a bowl',
-      'Drizzle with olive oil and lemon juice, sprinkle with oregano and salt',
-    ],
-    imageUrl: 'https://example.com/greek_salad.jpg',
-    cookTime: 10,
-    ratings: 5,
-    tags: ['Salad', 'Mediterranean', 'Vegetarian'],
   ),
 
   Recipe(
@@ -1044,7 +1003,8 @@ final List<Recipe> recipes = [
       'Fry until golden brown, layer in a baking dish with marinara and cheeses',
       'Bake until bubbly and golden on top',
     ],
-    imageUrl: 'https://example.com/eggplant_parmesan.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1166893356/photo/traditional-italian-food-baked-eggplant-tomatoes-with-sauce-parmesan-and-basil-rustic-food.webp?a=1&b=1&s=612x612&w=0&k=20&c=zDaWWCtrAL2teevagGZy6adjLBUnOyhzw5M746AzjdQ=',
     cookTime: 60,
     ratings: 5,
     tags: ['Italian', 'Vegetarian', 'Baked'],
@@ -1072,7 +1032,8 @@ final List<Recipe> recipes = [
       'Stir in heavy cream and Parmesan, simmer until thickened',
       'Toss pasta with sauce, season with salt and pepper',
     ],
-    imageUrl: 'https://example.com/chicken_alfredo.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/154920482/photo/chicken-fettuccine-alfredo.webp?a=1&b=1&s=612x612&w=0&k=20&c=DL16J28wlo77tz0q6HkiNeWSjkHVryi947I-AAKOWU4=',
     cookTime: 30,
     ratings: 5,
     tags: ['Pasta', 'Italian', 'Chicken'],
@@ -1100,7 +1061,8 @@ final List<Recipe> recipes = [
       'Add green beans, tomatoes, and vegetable broth',
       'Season with herbs, salt, and pepper, simmer until vegetables are tender',
     ],
-    imageUrl: 'https://example.com/vegetable_soup.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2041236856/photo/fresh-vegetable-soup-with-chickpeas-zucchini-and-sweet-potatoes-on-wooden-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=73um9vHnNwNH2f2cWbEtssnKDfea4OtLk1YCQt1g7r4=',
     cookTime: 40,
     ratings: 4,
     tags: ['Soup', 'Vegetarian', 'Healthy'],
@@ -1128,7 +1090,8 @@ final List<Recipe> recipes = [
       'Mix chopped stems with cream cheese, breadcrumbs, garlic, parsley, and Parmesan',
       'Stuff mushroom caps with the mixture, drizzle with olive oil, and bake until golden',
     ],
-    imageUrl: 'https://example.com/stuffed_mushrooms.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/1057566866/photo/creamy-crab-and-shrimp-stuffed-mini-portobello-mushroom-caps.webp?a=1&b=1&s=612x612&w=0&k=20&c=y1byRLnbLd7jk4lGhpRKpiji1syPfrNSK_zJl38iOqk=',
     cookTime: 25,
     ratings: 4,
     tags: ['Appetizer', 'Vegetarian', 'Baked'],
@@ -1155,36 +1118,11 @@ final List<Recipe> recipes = [
       'Combine wet ingredients (milk, eggs, melted butter, vanilla) with dry ingredients',
       'Fold in mashed bananas, cook on a griddle until golden brown on both sides',
     ],
-    imageUrl: 'https://example.com/banana_pancakes.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/174697307/photo/i-couldnt-see-the-picture-of-banana-pancakes.webp?a=1&b=1&s=612x612&w=0&k=20&c=KvdQkJDPlemM4vEgDcR21wimPg0TZffhNwGHNLZqDyo=',
     cookTime: 20,
     ratings: 5,
     tags: ['Breakfast', 'Sweet', 'Quick'],
-  ),
-
-  Recipe(
-    id: '49',
-    name: 'Spaghetti Carbonara',
-    description:
-        'A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.',
-    ingredients: [
-      'Spaghetti',
-      'Pancetta or guanciale',
-      'Eggs',
-      'Parmesan cheese',
-      'Black pepper',
-      'Garlic (optional)',
-    ],
-    instructions: [
-      'Cook spaghetti according to package instructions',
-      'In a skillet, cook pancetta until crispy',
-      'Whisk eggs and mix with grated Parmesan cheese',
-      'Combine hot pasta with pancetta and egg mixture, stirring quickly to create a creamy sauce',
-      'Season with black pepper and serve immediately',
-    ],
-    imageUrl: 'https://example.com/spaghetti_carbonara.jpg',
-    cookTime: 20,
-    ratings: 5,
-    tags: ['Italian', 'Pasta', 'Quick'],
   ),
 
   Recipe(
@@ -1207,7 +1145,8 @@ final List<Recipe> recipes = [
       'Stir in cocoa powder, flour, and salt until combined',
       'Pour into a baking dish and bake for 20-25 minutes',
     ],
-    imageUrl: 'https://example.com/chocolate_brownies.jpg',
+    imageUrl:
+        'https://media.istockphoto.com/id/2156395989/photo/fresh-baked-brownies.webp?a=1&b=1&s=612x612&w=0&k=20&c=MKbg4lqBif3w2ExOb2qvaeYyQaG6IiEjikoK9ae77cM=',
     cookTime: 30,
     ratings: 5,
     tags: ['Dessert', 'Baking', 'Chocolate'],
