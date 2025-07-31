@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/model/recipe.dart';
+import 'package:recipe/presentation/desktop_page.dart';
 import 'package:recipe/presentation/mobile_page.dart';
 
 class ResponsiveGrid extends StatelessWidget {
@@ -44,7 +45,10 @@ class ResponsiveGridCard extends StatelessWidget {
   }
 
   Widget _buildDesktopLayout(double width) {
-    return Card();
+    return Scaffold(
+      appBar: AppBar(title: Text('Recips')),
+      body: DesktopPage(),
+    );
   }
 
   Widget _buildTabletLayout(double width) {
