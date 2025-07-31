@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/model/recipe.dart';
-import 'package:recipe/responsive/widget/mobile_page.dart';
+import 'package:recipe/presentation/mobile_page.dart';
 
 class ResponsiveGrid extends StatelessWidget {
   const ResponsiveGrid({super.key, required this.recipes});
