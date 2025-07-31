@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe/presentation/desktop_page.dart';
 import 'package:recipe/responsive/responsive_breakpoints.dart';
 import 'package:recipe/presentation/mobile_page.dart';
 
@@ -54,7 +55,7 @@ class IntelligentWidget extends StatelessWidget {
 
   Widget _buildContent(double width) {
     if (ResponsiveBreakpoints.isDesktop(width)) {
-      return Container();
+      return DesktopPage();
     } else if (ResponsiveBreakpoints.isTablet(width)) {
       return Container();
     } else {
