@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/responsive/responsive_breakpoints.dart';
-import 'package:recipe/responsive/widget/mobile_page.dart';
+import 'package:recipe/presentation/mobile_page.dart';
 
 class IntelligentWidget extends StatelessWidget {
   const IntelligentWidget({super.key});
