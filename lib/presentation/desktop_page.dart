@@ -13,6 +13,11 @@ class _DesktopPageState extends State<DesktopPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('Recipes')),
+        backgroundColor: Colors.teal,
+        foregroundColor: Colors.white,
+      ),
       backgroundColor: Colors.teal,
       body: LayoutBuilder(
         builder: (contex, constraints) {
