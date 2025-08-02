@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe/service/favorite_manager.dart';
 import 'package:recipe/model/recipe.dart';
 
 class DetailsPage extends StatefulWidget {
@@ -10,10 +11,43 @@ class DetailsPage extends StatefulWidget {
 }
 
 class _DetailsPageState extends State<DetailsPage> {
+  bool isPressed = false;
+  final FavoritesManager _favoritesManager = FavoritesManager();
+
   @override
   Widget build(BuildContext context) {
+    final isFavorite = widget.recipe != null
+        ? _favoritesManager.isFavorite(widget.recipe!)
+        : false;
     return Scaffold(
-      appBar: AppBar(title: Text('Detailed Recipe')),
+      appBar: AppBar(
+        title: Text('Detailed Recipe'),
+        backgroundColor: Colors.teal,
+        foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            onPressed: () {
+              if (widget.recipe != null) {
+                setState(() {
+                  _favoritesManager.toggleFavorite(widget.recipe!);
+                });
+
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      _favoritesManager.isFavorite(widget.recipe!)
+                          ? 'Added to favorites!'
+                          : 'Removed from favorites!',
+                    ),
+                    duration: Duration(seconds: 1),
+                  ),
+                );
+              }
+            },
+            icon: Icon(isFavorite ? Icons.favorite : Icons.favorite_border),
+          ),
+        ],
+      ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -48,7 +82,8 @@ class _DetailsPageState extends State<DetailsPage> {
                   ),
                   child: Text('${widget.recipe?.cookTime.toString()} Min(s)'),
                 ),
-                const SizedBox(width: 10),
+
+                // const SizedBox(width: 10),
               ],
             ),
             const SizedBox(height: 20),
