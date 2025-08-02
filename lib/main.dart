@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recipe/responsive/widget/intelligent_widget.dart';
+import 'package:recipe/navigation/responsive_navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const IntelligentWidget(),
+      home: ResponsiveNavigation(),
     );
   }
 }
