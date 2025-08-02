@@ -15,7 +15,11 @@ class _MobilePageState extends State<MobilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal,
-      appBar: AppBar(title: Text('All Recipes')),
+      appBar: AppBar(
+        title: Text('All Recipes'),
+        backgroundColor: Colors.teal,
+        foregroundColor: Colors.white,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListView.builder(
