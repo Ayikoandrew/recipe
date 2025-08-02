@@ -39,7 +39,7 @@ List<AppDestination> appDestination = [
   AppDestination(
     label: 'Favorites',
     icon: Icons.favorite,
-    page: ItemsScreen(),
+    page: FavoritesPage(),
     isMainSection: true,
   ),
 ];
