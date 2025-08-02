@@ -57,7 +57,7 @@ class IntelligentWidget extends StatelessWidget {
     if (ResponsiveBreakpoints.isDesktop(width)) {
       return DesktopPage();
     } else if (ResponsiveBreakpoints.isTablet(width)) {
-      return Container();
+      return DesktopPage();
     } else {
       return MobilePage();
     }
