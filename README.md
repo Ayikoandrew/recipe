@@ -2,6 +2,13 @@
 
 A responsive Flutter application built for the CompileCamp Flutter Bootcamp that allows users to browse, search, and manage their favorite recipes across different devices.
 
+## 🌐 Live Demo
+
+**Try the app live:** [Recipe App Demo](https://recipe-knvwqnw-ayikoandrew.globeapp.dev)
+
+*Experience the responsive design across different screen sizes by resizing your browser window!*
+
+
 ## Features ✨
 
 - **Responsive Design**: Adapts seamlessly to mobile, tablet, and desktop screens
