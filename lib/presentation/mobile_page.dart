@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/model/recipe.dart';
-import 'package:recipe/responsive/widget/detailed_recipe_page.dart';
+import 'package:recipe/navigation/pages/details_page.dart';
 
 class MobilePage extends StatefulWidget {
   const MobilePage({super.key});
@@ -75,23 +75,22 @@ class _MobilePageState extends State<MobilePage> {
                       fontSize: 14,
                     ),
                   ),
-                  trailing: Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 16,
-                      vertical: 6,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.grey[100],
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Text('${recipe.cookTime.toString()} Mins'),
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.timer, size: 16, color: Colors.grey),
+                      const SizedBox(width: 2),
+                      Text(
+                        '${recipe.cookTime} min',
+                        style: const TextStyle(fontSize: 12),
+                      ),
+                    ],
                   ),
                   onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) =>
-                            DetailedRecipePage(recipe: recipe),
+                        builder: (context) => DetailsPage(recipe: recipe),
                       ),
                     );
                   },
