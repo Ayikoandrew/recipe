@@ -1,16 +1,39 @@
-# recipe
+# Recipe App 🍳
 
-A new Flutter project.
+A responsive Flutter application built for the CompileCamp Flutter Bootcamp that allows users to browse, search, and manage their favorite recipes across different devices.
 
-## Getting Started
+## Features ✨
 
-This project is a starting point for a Flutter application.
+- **Responsive Design**: Adapts seamlessly to mobile, tablet, and desktop screens
+- **Recipe Browsing**: Browse through a collection of 50+ recipes with images
+- **Search & Filter**: Search recipes by name, ingredients, or tags with category filters
+- **Recipe Details**: View detailed recipe information including ingredients, instructions, cook time, and ratings
+- **Favorites Management**: Add/remove recipes to/from favorites with persistent storage
+- **Multi-Platform Navigation**: 
+  - Mobile: Bottom navigation + drawer
+  - Tablet: Navigation rail (collapsed)
+  - Desktop: Navigation rail (extended)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots 📱
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Mobile View | Tablet View | Desktop View |
+|-------------|-------------|--------------|
+| ![Mobile](assets/mobile.png) | ![Tablet](assets/tablet.png) | ![Desktop](assets/desktop.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting Started 🚀
+
+### Prerequisites
+
+- Flutter SDK (version 3.0 or higher)
+- Dart SDK
+- Android Studio / VS Code
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Ayikoandrew/recipe.git
+   cd recipe
+
+[def]: screenshots/desktop.png
